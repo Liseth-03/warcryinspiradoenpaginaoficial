@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="../estilos/suscribete.css">
+    <link rel="icon" href="../imagenes/icono.png">
+    <title>Suscribete</title>
+</head>
+
+<header>
+    <header class="header">
+        <div class="container logo-nav-container">
+            <a href="../index.html" class="logo"><img src="../imagenes/WarCry.png"></a>
+            <span class="menu-icon"></span>
+                <nav class="navigation">
+                    <ul class="nav">
+                        <li><a href="../index.html">INICIO</a>
+                            <ul>
+                                <li><a href="#integrantes">INTEGRANTES</a></li>
+                            </ul>                            
+                        </li>
+
+
+                        <li><a href="../páginas/discografia.html">DISCOGRAFÍA</a></li>
+                        <li><a href="suscribete.html">SUSCRIBETE</a></li>     
+            </div>
+    </header>
+
+    <body>
+        
+        <div class="col-md-12 principal">
+            <img style="position: absolute; width: 98%; height: 900px;" src="../imagenes/fondo.jpg" alt="">
+
+            <div class="container1">
+                <h2 style="text-align: center; padding-top: 2%;" >¡SUSCRIBETE!</h2>
+                <form action="php/insertar.php" method="POST">
+                <div style="padding-left: 5%; padding-right: 5%;" class="form-group">
+                    <label>Nombre:</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingrese aquí su nombre" name="nombre">
+                </div>
+                <div style="padding-left: 5%; padding-right: 5%;" class="form-group">
+                    <label>Apellido:</label>
+                    <input type="text" class="form-control" id="apellido" placeholder="Ingrese aquí apellido" name="apellido">
+                </div>
+                <div style="padding-left: 5%; padding-right: 5%;" class="form-group">
+                    <label>Email:</label>
+                    <input type="text" class="form-control" id="correo" placeholder="Ingrese aquí su correo" name="correo">
+                </div>
+                  <button style=" box-shadow: inset 0 0 20px rgba(255, 0, 0, 0.801), 0 0; background-color:black;border-color:red;margin-left: 40%; width: 20%;" type="submit" class="btn btn-primary">SUSCRIBIRME</button>
+                </form>
+              </div>
+            </div>
+    </body>
+
+
+
+    <footer>
+        
+        <div class="col-md-12 footer1">
+            
+            <div class="col-md-4 cajasfooter">
+                <li style="list-style: none; text-decoration: none;"><a href="https://www.instagram.com/warcryoficial/?hl=es"><img style="width: 25%;" class="facebook1" src="../imagenes/instagram.png" alt=""></li></a>
+                <h1 style="color: white;" >@warcryoficial</h1>
+            </div>
+
+            <div class="col-md-4 cajasfooter2">
+                <li style="list-style: none; text-decoration: none;"><a href="https://www.facebook.com/WarCryOficial"><img style="width: 25%;" class="facebook1" src="../imagenes/facebook.png" alt=""></li></a>
+                <h1 style="color: white; margin-right: 40%; " >Warcry Oficial</h1>
+            </div>
+
+            <div class="col-md-4 cajasfooter3">
+                <li style="list-style: none; text-decoration: none;"><a href="https://www.warcry.es/"><img style="width: 50%;" class="facebook1" src="../imagenes/WarCry.png" alt=""></li></a>
+                <h1 style="color: white;" >Página Oficial</h1>
+
+            </div>
+        </div>
+        <div style="background-color: black; display: flex; height: 100px;" class="nombre">
+            <h1 style="color: white; margin-left: 35%;">Ximena Zorany Posso Pinchao - 2022</h1>
+        </div>
+        
+    </footer>
+</html>
